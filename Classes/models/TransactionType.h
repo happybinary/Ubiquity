@@ -1,0 +1,3 @@
+typedef enum {
+    TRANSACTION_PAY, TRANSACTION_REQUEST, TRANSACTION_SPLIT
+} TransactionType;
