@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'Yello' target in the 'Yello' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <CoreLocation/CoreLocation.h>
+    #import <MapKit/MapKit.h>
+    #import <AddressBook/AddressBook.h>
+    #import <AudioToolbox/AudioToolbox.h>
+    #import <CoreData/CoreData.h>
+#endif
